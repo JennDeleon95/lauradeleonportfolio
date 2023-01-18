@@ -131,6 +131,7 @@ img {
 	grid-auto-flow: column;
 	overflow-x: auto;
 	overscroll-behavior-inline: contain;
+	position: relative;
 }
 
 body::webkit-scrollbar{
@@ -273,7 +274,7 @@ textarea: valid~label{
 
 /*social media starts*/
 
-footer {
+.footer {
 	height: auto;
 	width: 100vw;
 	padding-top: 40px;	
@@ -343,6 +344,8 @@ footer {
 }
 /*social media ends*/
 
+/*film starts*/
+
 .about h1{
 	font-family: Popping, sans-serif;
 	text-align: center;
@@ -381,3 +384,5 @@ footer {
 	height: 70%;
 	width: 70%;
 }
+/*film ends*/
+
