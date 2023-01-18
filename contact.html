@@ -30,23 +30,29 @@
 
 <div class="contact-section">
 	<form action="https://formsubmit.co/316b4e8287805ee86304f9c643b71c6c" method="POST">
+		<!--Honeypot-->
+		<input type="text" name="_honey" style="display:none;">
+
+		<!--Disable Captcha-->
+		<input type="hidde" name="_captcha" value="false">
+
 		<h1>Contact</h1>
 		<div class="row">
 			<div class="contact-form-text">
-			<input type="text" id="name" name="name" required>
-			<label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+			<input type="text" class="name" name="name" required>
+			<label for="name"><i class="fa-solid fa-user"></i>Your Name</label>
 		</div>
 		<div class="contact-form-text">
-			<input type="text" id="number" name="number" required>
+			<input type="text" class="number" name="number" required>
 			<label for="number"><i class="fa-solid fa-phone"></i> Phone No.</label>
 		</div>
 		</div>
 		<div class="contact-form-text">
-			<input type="email" id="email" name="email" required>
+			<input type="email" class="email" name="email" required>
 			<label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
 		</div>
 		<div class="contact-form-text">
-			<textarea id="message" name="message" rows="8" required placeholder="Message"></textarea>
+			<textarea class="message" rows="8" required placeholder="Message" name="message"></textarea>
 		
 		</div>
 		<button type="submit">Sumbit</button>
@@ -57,7 +63,7 @@
 			<h3>Social Media</h3>
 			<ul class="socials">
 				<li><a href="https://www.instagram.com/lauraadeleonn/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-				<li><a href="mailto: ldeleonorozco35@gmail.com"><i class="fa-regular fa-envelope"></i></li>
+				<li><a href="mailto: jdeleonorozco95@gmail.com"><i class="fa-regular fa-envelope"></i></li>
 			</ul>
 		</div>
 		<div class="footer-bottom">
