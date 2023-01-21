@@ -30,6 +30,14 @@
 
 <div class="contact-section">
 	<form action="https://formsubmit.co/316b4e8287805ee86304f9c643b71c6c" method="POST">
+		<!--Honeypot-->
+		<input type="text" name="_honey" style="display:none;">
+
+		<!--Disable Captcha-->
+		<input type="hidden" name="_captcha" value="false">
+
+		<input type="hidden" name="_next" value="">
+
 		<h1>Contact</h1>
 		<div class="row">
 			<div class="contact-form-text">
@@ -46,7 +54,7 @@
 			<label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
 		</div>
 		<div class="contact-form-text">
-			<textarea class="message" rows="8" required placeholder="Message" name="text"></textarea>
+			<textarea class="message" rows="8" required placeholder="Message" name="message"></textarea>
 		
 		</div>
 		<button type="submit">Sumbit</button>
