@@ -100,6 +100,7 @@ nav {
 
 .nav-active {
 	transform: translateX(0%);
+	
 }
 
 @keyframes navLinkFade{
@@ -119,10 +120,11 @@ nav {
 /*start picture carousel home*/
 
 img {
-	max-width: 600px;
-	max-height: 600px;
-	object-fit: cover;
+	width: 700px;
+	height: 700px;
+	object-fit: contain;
 	margin: 10px;
+
 }
 
 .carousel-slide {
@@ -131,6 +133,7 @@ img {
 	grid-auto-flow: column;
 	overflow-x: auto;
 	overscroll-behavior-inline: contain;
+	position: relative;
 }
 
 body::webkit-scrollbar{
@@ -258,6 +261,7 @@ textarea: valid~label{
 	padding-bottom: 54.25%;
 	padding-top: 25px;
 	height: 0px;
+	align-content: center;
 }
 
 .snipevideo iframe {
@@ -273,7 +277,7 @@ textarea: valid~label{
 
 /*social media starts*/
 
-footer {
+.footer {
 	height: auto;
 	width: 100vw;
 	padding-top: 40px;	
@@ -343,6 +347,8 @@ footer {
 }
 /*social media ends*/
 
+/*film starts*/
+
 .about h1{
 	font-family: Popping, sans-serif;
 	text-align: center;
@@ -381,3 +387,5 @@ footer {
 	height: 70%;
 	width: 70%;
 }
+/*film ends*/
+
